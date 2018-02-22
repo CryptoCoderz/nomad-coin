@@ -377,7 +377,7 @@ void NomadGUI::createToolBars()
     if (fUseBlackTheme)
     {
         QWidget* header = new QWidget();
-        header->setMinimumSize(160, 116);
+        header->setMinimumSize(160, 130);
         header->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
         header->setStyleSheet("QWidget { background-color: rgb(24,26,30); background-repeat: no-repeat; background-image: url(:/images/header); background-position: top center; }");
         toolbar->addWidget(header);
